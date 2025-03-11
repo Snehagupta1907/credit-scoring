@@ -1,7 +1,7 @@
 {
   "name": "credit-score",
   "version": "1.0.0",
-  "description": "",
+  "description": "DeFi On-Chain Credit Scoring",
   "main": "index.js",
   "type": "module",
   "scripts": {
