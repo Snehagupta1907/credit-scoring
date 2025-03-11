@@ -1,11 +1,29 @@
-const express = require("express");
-const bodyParser = require("body-parser");
+import express from "express";
+import helmet from "helmet";
+import cors from "cors";
+import rateLimit from "express-rate-limit";
+import dotenv from "dotenv";
+
+dotenv.config();
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
+
+// Middleware
+app.use(express.json()); // Built-in JSON parser
+app.use(helmet()); // Security headers
+app.use(cors()); // Enable CORS
+
+// Rate limiting to prevent abuse
+const limiter = rateLimit({
+  windowMs: 15 * 60 * 1000, // 15 minutes
+  max: 100, // Limit each IP to 100 requests per windowMs
+  message: { error: "Too many requests, please try again later." },
+});
+app.use(limiter);
 
 // Middleware to parse JSON request bodies
-app.use(bodyParser.json());
+//app.use(bodyParser.json());
 
 // Credit Score Calculation Function
 const calculateCreditScore = (data) => {
@@ -73,5 +91,5 @@ app.post("/calculate-credit-score", (req, res) => {
 
 // Start the server
 app.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port}`);
+  console.log(`Server running on port:${port}`);
 });
