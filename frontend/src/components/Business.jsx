@@ -32,7 +32,7 @@ export default function Business() {
           transition={{ duration: 0.5 }}
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            <span className="text-blue-400">🌍</span> Business Model & Go-To-Market Strategy
+            <span className="text-teal-400">🌍</span> Business Model & Go-To-Market Strategy
           </h2>
           <p className="text-gray-300 max-w-2xl mx-auto">
             How we'll capture value in the growing DeFi lending market
@@ -47,13 +47,13 @@ export default function Business() {
             animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -30 }}
             transition={{ duration: 0.6 }}
           >
-            <div className="h-2 bg-gradient-to-r from-blue-500 to-purple-600"></div>
+            <div className="h-2 bg-gradient-to-r from-teal-500 to-cyan-600"></div>
             <div className="p-6">
               <h3 className="text-2xl font-bold mb-4">Market Opportunity</h3>
               <div className="space-y-4">
                 <div className="flex items-center">
-                  <div className="w-12 h-12 bg-blue-600/20 rounded-full flex items-center justify-center mr-4">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <div className="w-12 h-12 bg-teal-600/20 rounded-full flex items-center justify-center mr-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-teal-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                   </div>
@@ -63,8 +63,8 @@ export default function Business() {
                 </div>
                 
                 <div className="flex items-center">
-                  <div className="w-12 h-12 bg-blue-600/20 rounded-full flex items-center justify-center mr-4">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <div className="w-12 h-12 bg-teal-600/20 rounded-full flex items-center justify-center mr-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-teal-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                     </svg>
                   </div>
@@ -73,9 +73,9 @@ export default function Business() {
                   </div>
                 </div>
                 
-                <div className="bg-gradient-to-r from-blue-900/50 to-purple-900/50 rounded-lg p-4 mt-6">
+                <div className="bg-gradient-to-r from-teal-900/50 to-cyan-900/50 rounded-lg p-4 mt-6">
                   <div className="flex items-center mb-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-blue-400 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-teal-400 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                     <span className="text-lg font-semibold">Did You Know?</span>
@@ -93,12 +93,12 @@ export default function Business() {
             animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 30 }}
             transition={{ duration: 0.6 }}
           >
-            <div className="h-2 bg-gradient-to-r from-purple-600 to-blue-500"></div>
+            <div className="h-2 bg-gradient-to-r from-cyan-600 to-teal-500"></div>
             <div className="p-6">
               <h3 className="text-2xl font-bold mb-4">Monetization Strategy</h3>
               <div className="space-y-4">
                 <div className="flex">
-                  <div className="flex-shrink-0 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center mr-3">
+                  <div className="flex-shrink-0 w-8 h-8 bg-teal-600 rounded-full flex items-center justify-center mr-3">
                     <span className="font-bold text-white">1</span>
                   </div>
                   <div>
@@ -108,7 +108,7 @@ export default function Business() {
                 </div>
                 
                 <div className="flex">
-                  <div className="flex-shrink-0 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center mr-3">
+                  <div className="flex-shrink-0 w-8 h-8 bg-teal-600 rounded-full flex items-center justify-center mr-3">
                     <span className="font-bold text-white">2</span>
                   </div>
                   <div>
@@ -118,7 +118,7 @@ export default function Business() {
                 </div>
                 
                 <div className="flex">
-                  <div className="flex-shrink-0 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center mr-3">
+                  <div className="flex-shrink-0 w-8 h-8 bg-teal-600 rounded-full flex items-center justify-center mr-3">
                     <span className="font-bold text-white">3</span>
                   </div>
                   <div>
@@ -128,7 +128,7 @@ export default function Business() {
                 </div>
                 
                 <div className="flex">
-                  <div className="flex-shrink-0 w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center mr-3">
+                  <div className="flex-shrink-0 w-8 h-8 bg-teal-600 rounded-full flex items-center justify-center mr-3">
                     <span className="font-bold text-white">4</span>
                   </div>
                   <div>
@@ -184,21 +184,21 @@ export default function Business() {
           </div>
           
           <motion.div 
-            className="mt-8 bg-gradient-to-r from-blue-900/30 to-purple-900/30 p-5 rounded-lg"
+            className="mt-8 bg-gradient-to-r from-teal-900/30 to-cyan-900/30 p-5 rounded-lg"
             variants={itemVariants}
           >
             <h3 className="text-xl font-bold mb-3">💡 Why We're the Best Team to Build This</h3>
             <div className="space-y-2">
               <div className="flex items-start">
-                <span className="text-green-400 mr-2">✔</span>
+                <span className="text-teal-400 mr-2">✔</span>
                 <p className="text-gray-300">Deep Web3 & DeFi Expertise — Our team has strong experience in smart contracts, blockchain data analytics, and DeFi lending models.</p>
               </div>
               <div className="flex items-start">
-                <span className="text-green-400 mr-2">✔</span>
+                <span className="text-teal-400 mr-2">✔</span>
                 <p className="text-gray-300">Strong Technical Roadmap — We are building a scalable and customizable framework that can integrate with multiple protocols.</p>
               </div>
               <div className="flex items-start">
-                <span className="text-green-400 mr-2">✔</span>
+                <span className="text-teal-400 mr-2">✔</span>
                 <p className="text-gray-300">First-Mover Advantage — We're solving a key problem DeFi lending protocols have ignored for years.</p>
               </div>
             </div>

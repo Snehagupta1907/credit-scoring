@@ -15,14 +15,14 @@ const Hero = () => {
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
               <span className="block">The First On-Chain</span>
-              <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">Credit Scoring System</span>
+              <span className="bg-gradient-to-r from-teal-400 via-cyan-500 to-blue-500 bg-clip-text text-transparent">Credit Scoring System</span>
               <span className="block">for DeFi</span>
             </h1>
             <p className="text-gray-300 text-lg md:text-xl mb-8 max-w-lg">
               Enabling trust-based, undercollateralized lending in DeFi through decentralized credit scoring.
             </p>
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-              <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full font-medium transition-colors">
+              <button className="bg-teal-600 hover:bg-teal-700 text-white px-8 py-3 rounded-full font-medium transition-colors">
                 Check Your Score
               </button>
               <button className="border border-gray-600 hover:border-gray-400 text-white px-8 py-3 rounded-full font-medium transition-colors">
@@ -39,11 +39,11 @@ const Hero = () => {
           >
             <div className="relative">
               <div className="w-full h-64 md:h-96 bg-black-800 rounded-lg relative overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 to-purple-600/30 z-10"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-teal-600/20 to-cyan-600/30 z-10"></div>
                 <div className="absolute inset-0 flex items-center justify-center z-20">
                   <div className="text-center">
                     <div className="text-6xl font-bold mb-2">852</div>
-                    <div className="text-xl text-blue-300">Your DeFi Credit Score</div>
+                    <div className="text-xl text-teal-300">Your DeFi Credit Score</div>
                     <div className="mt-4 text-sm text-gray-400">Connect wallet to view yours</div>
                   </div>
                 </div>
@@ -89,7 +89,7 @@ const Hero = () => {
                 transition={{ duration: 3.5, repeat: Infinity, repeatType: "reverse" }}
               >
                 <div className="text-xs text-gray-400">Repayment Rate</div>
-                <div className="text-lg font-medium text-green-400">98.7%</div>
+                <div className="text-lg font-medium text-teal-400">98.7%</div>
               </motion.div>
             </div>
           </motion.div>

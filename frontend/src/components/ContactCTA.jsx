@@ -11,7 +11,7 @@ export default function ContactCTA() {
     <section className="py-16 md:py-24">
       <div className="container mx-auto px-4 md:px-6" ref={ref}>
         <motion.div 
-          className="bg-gradient-to-r from-blue-800/20 via-purple-800/20 to-blue-800/20 rounded-2xl overflow-hidden shadow-xl border border-gray-700 p-8 md:p-12"
+          className="bg-gradient-to-r from-teal-800/20  via-cyan-800/20 to-teal-800/20 rounded-2xl overflow-hidden shadow-xl border border-gray-700 p-8 md:p-12"
           initial={{ opacity: 0, y: 30 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
           transition={{ duration: 0.6 }}
@@ -27,10 +27,10 @@ export default function ContactCTA() {
               </p>
               
               <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-                <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition-colors">
+                <button className="bg-teal-600 hover:bg-teal-700 text-white px-6 py-3 rounded-lg font-medium transition-colors">
                   Try the Demo
                 </button>
-                <button className="border border-blue-600 hover:bg-blue-600/10 text-white px-6 py-3 rounded-lg font-medium transition-colors">
+                <button className="border border-teal-600 hover:bg-teal-600/10 text-white px-6 py-3 rounded-lg font-medium transition-colors">
                   Partner With Us
                 </button>
               </div>
@@ -41,18 +41,18 @@ export default function ContactCTA() {
               <form className="space-y-4">
                 <div>
                   <label className="block text-sm font-medium text-gray-400 mb-1">Email</label>
-                  <input type="email" className="w-full px-4 py-2 bg-black-700 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="you@example.com" />
+                  <input type="email" className="w-full px-4 py-2 bg-black-700 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent" placeholder="you@example.com" />
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-gray-400 mb-1">I am a...</label>
-                  <select className="w-full px-4 py-2 bg-black-700 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                  <select className="w-full px-4 py-2 bg-black-700 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent">
                     <option>DeFi Protocol Developer</option>
                     <option>DeFi User</option>
                     <option>Investor</option>
                     <option>Researcher</option>
                   </select>
                 </div>
-                <button className="w-full bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg font-medium transition-colors">
+                <button className="w-full bg-teal-600 hover:bg-teal-700 text-white px-4 py-2 rounded-lg font-medium transition-colors">
                   Join Waitlist
                 </button>
               </form>

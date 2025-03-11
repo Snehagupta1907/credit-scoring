@@ -28,8 +28,8 @@ export default function Navbar() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex justify-between items-center">
           <Link href="/" className="flex items-center space-x-2">
-            <div className="h-8 w-8 bg-blue-600 rounded-full"></div>
-            <span className="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">DeFi Credit Score</span>
+            <div className="h-8 w-8 bg-teal-600 rounded-full"></div>
+            <span className="text-xl font-bold bg-gradient-to-r from-teal-400 to-cyan-500 bg-clip-text text-transparent">DeFi Credit Score</span>
           </Link>
 
           {/* Desktop menu */}
@@ -39,7 +39,7 @@ export default function Navbar() {
             <Link href="#features" className="text-gray-300 hover:text-white transition-colors">Features</Link>
             <Link href="#roadmap" className="text-gray-300 hover:text-white transition-colors">Roadmap</Link>
             <Link href="#business" className="text-gray-300 hover:text-white transition-colors">Business</Link>
-            <button className="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-full font-medium transition-colors">
+            <button className="bg-teal-600 hover:bg-teal-700 text-white px-5 py-2 rounded-full font-medium transition-colors">
               Try Demo
             </button>
           </div>
@@ -67,7 +67,7 @@ export default function Navbar() {
             <Link href="#features" className="text-gray-300 hover:text-white transition-colors py-2" onClick={() => setMobileMenuOpen(false)}>Features</Link>
             <Link href="#roadmap" className="text-gray-300 hover:text-white transition-colors py-2" onClick={() => setMobileMenuOpen(false)}>Roadmap</Link>
             <Link href="#business" className="text-gray-300 hover:text-white transition-colors py-2" onClick={() => setMobileMenuOpen(false)}>Business</Link>
-            <button className="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-full font-medium transition-colors w-full">
+            <button className="bg-teal-600 hover:bg-teal-700 text-white px-5 py-2 rounded-full font-medium transition-colors w-full">
               Try Demo
             </button>
           </div>

@@ -32,7 +32,7 @@ export default function Features() {
           transition={{ duration: 0.5 }}
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            <span className="text-blue-400">🛠</span> MVP Features
+            <span className="text-teal-400">🛠</span> MVP Features
           </h2>
           <p className="text-gray-300 max-w-2xl mx-auto">
             Our Minimum Viable Product will be developed in a 1-Week to 10-Day Build Sprint
@@ -74,10 +74,10 @@ export default function Features() {
           ].map((feature, index) => (
             <motion.div 
               key={index} 
-              className="bg-black-800 rounded-xl shadow-lg border border-gray-700 hover:border-blue-600/50 transition-colors overflow-hidden"
+              className="bg-black-800 rounded-xl shadow-lg border border-gray-700 hover:border-teal-600/50 transition-colors overflow-hidden"
               variants={itemVariants}
             >
-              <div className="h-2 bg-gradient-to-r from-blue-500 to-purple-600"></div>
+              <div className="h-2 bg-gradient-to-r from-teal-500 to-cyan-600"></div>
               <div className="p-6">
                 <div className="text-2xl mb-3">{feature.number}</div>
                 <h3 className="text-xl font-semibold mb-3 text-white">{feature.title}</h3>

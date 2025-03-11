@@ -73,7 +73,7 @@ export default function Problem() {
           ].map((item, index) => (
             <motion.div 
               key={index} 
-              className="bg-black-800 p-6 rounded-xl shadow-lg border border-gray-700 hover:border-blue-600/50 transition-colors"
+              className="bg-black-800 p-6 rounded-xl shadow-lg border border-gray-700 hover:border-teal-600/50 transition-colors"
               variants={itemVariants}
             >
               <h3 className="text-xl font-semibold mb-3 text-white">{item.title}</h3>
@@ -88,7 +88,7 @@ export default function Problem() {
           animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.9 }}
           transition={{ duration: 0.6, delay: 0.5 }}
         >
-          <p className="text-lg text-blue-300 font-medium">
+          <p className="text-lg text-teal-300 font-medium">
             🔹 There is a massive gap for a fully decentralized, customizable, and interoperable on-chain credit scoring solution.
           </p>
         </motion.div>
