@@ -23,7 +23,7 @@ export default function Features() {
   };
 
   return (
-    <section id="features" className="py-16 md:py-24 bg-black-800/50">
+    <section id="features" className="py-16 md:py-24 bg-black">
       <div className="container mx-auto px-4 md:px-6" ref={ref}>
         <motion.div
           className="text-center mb-12"
@@ -74,7 +74,7 @@ export default function Features() {
           ].map((feature, index) => (
             <motion.div 
               key={index} 
-              className="bg-black-800 rounded-xl shadow-lg border border-gray-700 hover:border-teal-600/50 transition-colors overflow-hidden"
+              className="bg-black rounded-xl shadow-lg border border-gray-700 hover:border-teal-600/50 transition-colors overflow-hidden"
               variants={itemVariants}
             >
               <div className="h-2 bg-gradient-to-r from-teal-500 to-cyan-600"></div>

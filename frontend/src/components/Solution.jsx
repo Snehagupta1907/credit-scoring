@@ -98,7 +98,7 @@ export default function Solution() {
             animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 50 }}
             transition={{ duration: 0.7, delay: 0.4 }}
           >
-            <div className="bg-black-800 rounded-xl overflow-hidden border border-gray-700 shadow-xl">
+            <div className="bg-black rounded-xl overflow-hidden border border-gray-700 shadow-xl">
               <div className="p-1 bg-gradient-to-r from-teal-600 to-cyan-600"></div>
               <div className="p-6">
                 <div className="flex items-center justify-between mb-6">
@@ -114,30 +114,30 @@ export default function Solution() {
                 </div>
                 
                 <div className="space-y-4">
-                  <div className="bg-black-700/30 rounded-lg p-4">
+                  <div className="bg-black rounded-lg p-4">
                     <div className="flex justify-between items-center mb-2">
                       <span className="text-gray-400">Overall Score</span>
                       <span className="text-2xl font-bold text-teal-400">785</span>
                     </div>
-                    <div className="w-full bg-black-700 rounded-full h-2">
+                    <div className="w-full bg-black rounded-full h-2">
                       <div className="bg-gradient-to-r from-teal-500 to-cyan-500 h-2 rounded-full" style={{ width: '78.5%' }}></div>
                     </div>
                   </div>
                   
                   <div className="grid grid-cols-2 gap-4">
-                    <div className="bg-black-700/30 rounded-lg p-4">
+                    <div className="bg-black rounded-lg p-4">
                       <span className="text-gray-400 text-sm">Repayment History</span>
                       <div className="text-xl font-medium mt-1">Excellent</div>
                     </div>
-                    <div className="bg-black-700/30 rounded-lg p-4">
+                    <div className="bg-black rounded-lg p-4">
                       <span className="text-gray-400 text-sm">Liquidations</span>
                       <div className="text-xl font-medium mt-1">None</div>
                     </div>
-                    <div className="bg-black-700/30 rounded-lg p-4">
+                    <div className="bg-black rounded-lg p-4">
                       <span className="text-gray-400 text-sm">Wallet Age</span>
                       <div className="text-xl font-medium mt-1">2.5 years</div>
                     </div>
-                    <div className="bg-black-700/30 rounded-lg p-4">
+                    <div className="bg-black rounded-lg p-4">
                       <span className="text-gray-400 text-sm">Activity Score</span>
                       <div className="text-xl font-medium mt-1">High</div>
                     </div>

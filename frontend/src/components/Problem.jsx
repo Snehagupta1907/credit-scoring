@@ -23,7 +23,7 @@ export default function Problem() {
   };
 
   return (
-    <section id="problem" className="py-16 md:py-24 bg-black-800/50">
+    <section id="problem" className="py-16 md:py-24 bg-black">
       <div className="container mx-auto px-4 md:px-6" ref={ref}>
         <motion.div
           className="text-center mb-12"
@@ -73,7 +73,7 @@ export default function Problem() {
           ].map((item, index) => (
             <motion.div 
               key={index} 
-              className="bg-black-800 p-6 rounded-xl shadow-lg border border-gray-700 hover:border-teal-600/50 transition-colors"
+              className="bg-black p-6 rounded-xl shadow-lg border border-gray-700 hover:border-teal-600/50 transition-colors"
               variants={itemVariants}
             >
               <h3 className="text-xl font-semibold mb-3 text-white">{item.title}</h3>

@@ -19,7 +19,7 @@ export default function Navbar() {
   return (
     <motion.nav 
       className={`fixed w-full z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-black-900/90 backdrop-blur-md py-2 shadow-lg' : 'bg-transparent py-4'
+        isScrolled ? 'bg-black backdrop-blur-md py-2 shadow-lg' : 'bg-transparent py-4'
       }`}
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
@@ -56,7 +56,7 @@ export default function Navbar() {
       {/* Mobile menu */}
       {mobileMenuOpen && (
         <motion.div 
-          className="md:hidden bg-black-800 shadow-lg py-4"
+          className="md:hidden bg-black shadow-lg py-4"
           initial={{ opacity: 0, height: 0 }}
           animate={{ opacity: 1, height: 'auto' }}
           exit={{ opacity: 0, height: 0 }}

@@ -14,7 +14,7 @@ import Hero from '@/components/Hero';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-black-900 text-white">
+    <div className="min-h-screen bg-black text-white">
       <Head>
         <title>DeFi Credit Score | First On-Chain Credit Scoring System</title>
         <meta name="description" content="The first decentralized credit scoring framework for DeFi lending" />

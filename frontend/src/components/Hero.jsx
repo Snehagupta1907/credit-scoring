@@ -38,7 +38,7 @@ const Hero = () => {
             transition={{ duration: 0.7, delay: 0.2 }}
           >
             <div className="relative">
-              <div className="w-full h-64 md:h-96 bg-black-800 rounded-lg relative overflow-hidden">
+              <div className="w-full h-64 md:h-96 bg-black rounded-lg relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-br from-teal-600/20 to-cyan-600/30 z-10"></div>
                 <div className="absolute inset-0 flex items-center justify-center z-20">
                   <div className="text-center">
@@ -75,7 +75,7 @@ const Hero = () => {
               
               {/* Floating stats cards */}
               <motion.div 
-                className="absolute -bottom-5 -left-5 bg-black-800 p-4 rounded-lg shadow-xl"
+                className="absolute -bottom-5 -left-5 bg-black p-4 rounded-lg shadow-xl"
                 animate={{ y: [0, -10, 0] }}
                 transition={{ duration: 4, repeat: Infinity, repeatType: "reverse" }}
               >
@@ -84,7 +84,7 @@ const Hero = () => {
               </motion.div>
               
               <motion.div 
-                className="absolute -top-5 -right-5 bg-black-800 p-4 rounded-lg shadow-xl"
+                className="absolute -top-5 -right-5 bg-black p-4 rounded-lg shadow-xl"
                 animate={{ y: [0, 10, 0] }}
                 transition={{ duration: 3.5, repeat: Infinity, repeatType: "reverse" }}
               >

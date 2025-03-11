@@ -23,7 +23,7 @@ export default function Business() {
   };
 
   return (
-    <section id="business" className="py-16 md:py-24 bg-black-800/50">
+    <section id="business" className="py-16 md:py-24 bg-black">
       <div className="container mx-auto px-4 md:px-6" ref={ref}>
         <motion.div
           className="text-center mb-12"
@@ -42,7 +42,7 @@ export default function Business() {
         <div className="grid md:grid-cols-2 gap-8 md:gap-12">
           {/* Market Opportunity */}
           <motion.div 
-            className="bg-black-800 rounded-xl shadow-lg border border-gray-700 overflow-hidden"
+            className="bg-black rounded-xl shadow-lg border border-gray-700 overflow-hidden"
             initial={{ opacity: 0, x: -30 }}
             animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -30 }}
             transition={{ duration: 0.6 }}
@@ -88,7 +88,7 @@ export default function Business() {
           
           {/* Monetization Strategy */}
           <motion.div 
-            className="bg-black-800 rounded-xl shadow-lg border border-gray-700 overflow-hidden"
+            className="bg-black rounded-xl shadow-lg border border-gray-700 overflow-hidden"
             initial={{ opacity: 0, x: 30 }}
             animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 30 }}
             transition={{ duration: 0.6 }}
@@ -143,7 +143,7 @@ export default function Business() {
         
         {/* Go-To-Market Strategy */}
         <motion.div 
-          className="mt-12 bg-black-800 rounded-xl p-6 border border-gray-700"
+          className="mt-12 bg-black rounded-xl p-6 border border-gray-700"
           variants={containerVariants}
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
