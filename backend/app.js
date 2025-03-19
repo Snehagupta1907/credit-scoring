@@ -10,7 +10,6 @@ import creditScoreRoutes from "./routes/creditScoreRoutes.js";
 dotenv.config();
 
 const app = express();
-const port = process.env.PORT || 3000;
 
 // Middleware
 app.use(express.json()); // Built-in JSON parser
@@ -31,6 +30,5 @@ await Moralis.start({ apiKey: process.env.MORALIS_API_KEY });
 app.use("/api", walletRoutes);
 app.use("/api", creditScoreRoutes);
 
-app.listen(port, () => {
-  console.log(`Server running on port :${port}`);
-});
+
+export default app;
