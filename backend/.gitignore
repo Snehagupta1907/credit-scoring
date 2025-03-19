@@ -2,4 +2,3 @@ node_modules/
 .env
 .DS_Store  # (Mac system files)
 package-lock.json 
-vercel.json
